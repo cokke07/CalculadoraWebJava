@@ -35,10 +35,10 @@ public class ControladorCalculadora {
 		
 		model.addAttribute("numeroA", num1);
 		model.addAttribute("numeroB", num2);
-		model.addAttribute("resultSuma", "Las suma de "+ num1+" + " + num2 +" es: "+ suma);
-		model.addAttribute("resultResta", "Las resta de "+ num1+" - " + num2 +" es: "+ resta);
-		model.addAttribute("resultMult", "Las multiplicacion de "+ num1+" * " + num2 +" es: "+ mult);
-		model.addAttribute("resultDiv", "Las divición de "+ num1+" / " + num2 +" es: "+ div);
+		model.addAttribute("resultSuma", "La suma de "+ num1+" + " + num2 +" es: "+ suma);
+		model.addAttribute("resultResta", "La resta de "+ num1+" - " + num2 +" es: "+ resta);
+		model.addAttribute("resultMult", "La multiplicacion de "+ num1+" * " + num2 +" es: "+ mult);
+		model.addAttribute("resultDiv", "La divición de "+ num1+" / " + num2 +" es: "+ div);
 		System.out.println(num1);
 	
 		return "index";
